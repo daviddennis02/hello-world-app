@@ -2,6 +2,10 @@
   "name": "hello-world-app",
   "version": "1.0.0",
   "description": "hello-world rest endpoint",
+  "repository" : { 
+   "type" : "git",
+   "url" : "https://github.com/daviddennis02/hello-world-app"
+ },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

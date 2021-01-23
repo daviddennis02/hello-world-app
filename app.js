@@ -12,14 +12,10 @@ res.status(200).send('Hello World');
 })
 
 
-
-
-
-
 app.listen(port, (e) => {
     if (e) {
         throw new Error('Internal Server Error')
     }
-console.log(`listening on port ${port} `);
+console.log(`App is running on http://localhost:${port}`);
 })
 
